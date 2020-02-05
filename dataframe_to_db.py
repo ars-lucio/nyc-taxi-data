@@ -12,7 +12,7 @@ from database_conn import DataBase
 @click.command()
 @click.option("--db", "-db", "db_file", required=True,
               help="Path to db",
-              type=click.Path(exists=True, dir_okay=False, readable=True),
+              type=click.Path(dir_okay=False),
               )
 @click.option("--table", "-t", "table_name",
               help="Start Date",
