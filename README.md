@@ -14,7 +14,7 @@ we can pass three arguments from terminal
 * -t or --table (table name)
 * -s or --start-date (start date to process in format year-month-day)
 * -e or --end-date (end date to process in format year-month-day)
-* -l 0r --limit (limit the number of rows)
+* -l or --limit (limit the number of rows)
 #### example run
 ```python
 python dataframe_to_db.py -db ./taxi.db -t taxi2018 -s 2018-01-01 -e 2018-12-31 -l 1000
