@@ -5,7 +5,7 @@ This solution implements sodapy Socrata module for fetching the Taxi Rides data 
 (https://data.cityofnewyork.us/Transportation/2018-Yellow-Taxi-Trip-Data/t29m-gskq/data)
 
 it makes use of two built in classes SocrataDataframe and DataBase
-in the SocrataDataframe.py file we see a column_dict which is built for this specific dataset
+in the socrata_dataframe.py file we see a column_dict which is built for this specific dataset
 
 ### dataframe_to_db.py
 This file sends the resulting dataframe to a table in the db (sqlite3)
