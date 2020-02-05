@@ -25,13 +25,12 @@ This file is more flexible and allow us to edit the query_text for the Socrata A
 #### Requirements
 Create a virtualenv
 ```bash
-sudo pip3 install virtualenv
-virtualenv sodapy
-source sodapy/bin/activate
+python3 -m venv sodapy_venv
+source sodapy_venv/bin/activate
 ```
 and install the requirements.txt
 ```bash
-pip install -r /path/to/requirements.txt
+pip install -r requirements.txt
 ```
 or directly pip the main modules
 ```bash
