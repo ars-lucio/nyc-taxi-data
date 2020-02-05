@@ -3,8 +3,8 @@ import datetime
 from datetime import date, timedelta
 import pandas as pd
 from pandas.io import sql
-from SocrataDataframe import SocrataDataframe
-from DataBase import DataBase
+from socrata_dataframe import SocrataDataframe
+from database_conn import DataBase
 
 #python dataframe_to_db.py -db ./taxi.db -t taxi2018 -s 2018-01-01 -e 2018-12-31 -l 1000
 
