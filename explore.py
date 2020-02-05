@@ -2,8 +2,8 @@ import datetime
 from datetime import date, timedelta
 import pandas as pd
 from pandas.io import sql
-from SocrataDataframe import SocrataDataframe
-from DataBase import DataBase
+from socrata_dataframe import SocrataDataframe
+from database_conn import DataBase
 
 socrata_dataframe = SocrataDataframe('data.cityofnewyork.us','t29m-gskq',1000)
 query_text = '''select VendorID
