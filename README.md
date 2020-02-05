@@ -21,3 +21,21 @@ python dataframe_to_db.py -db ./taxi.db -t taxi2018 -s 2018-01-01 -e 2018-12-31 
 ```
 ### explore.py
 This file is more flexible and allow us to edit the query_text for the Socrata API and get the result in a dataframe wich can later be processed and store the results
+
+#### Requirements
+Create a virtualenv
+```bash
+sudo pip3 install virtualenv
+virtualenv sodapy
+source sodapy/bin/activate
+```
+and install the requirements.txt
+```bash
+pip install -r /path/to/requirements.txt
+```
+or directly pip the main modules
+```bash
+sudo pip3 install pandas
+sudo pip3 install sodapy
+```
+
